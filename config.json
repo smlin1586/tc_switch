@@ -1,7 +1,17 @@
 {
   "featureToggle": {
-    "isFeatureEnabled": true,
+    "isFeatureEnabled": false,
     "version": "1.0.0",
     "lastUpdated": "2024-01-15T10:00:00Z"
+  },
+  "platformOverrides": {
+    "android": {
+      "isFeatureEnabled": true,
+      "note": "Android平台特殊开启"
+    },
+    "ios": {
+      "isFeatureEnabled": false,
+      "note": "iOS平台保持关闭"
+    }
   }
 }
