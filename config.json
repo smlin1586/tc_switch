@@ -6,7 +6,7 @@
   },
   "platformOverrides": {
     "android": {
-      "isFeatureEnabled": true,
+      "isFeatureEnabled": false,
       "note": "Android平台特殊开启"
     },
     "ios": {
